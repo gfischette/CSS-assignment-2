@@ -25,34 +25,33 @@ section {
 #cougar {
     display: flex;
     background: #FFD5AE;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 #lion {
     background: #FFBD82;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 #tiger {
     background: #ECA155;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .text {
-    background: #fff;
-    padding: 1rem 3rem 2rem;
+    padding: 2rem 2rem;
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
-.text h2 {
-    text-align: center;
-}
 
 header {
     display: flex;
@@ -85,12 +84,8 @@ footer {
     padding: 1rem;
 }
 
-article {
-    padding: 3rem 0;
-}
-
 .photo {
-    padding-bottom: 2rem;
+    padding: 3rem 1rem;
 }
 
 
@@ -126,7 +121,7 @@ a:hover {
 }
 
 article a {
-    color: #004A94;
+    color: #060E65;
 
 }
 
