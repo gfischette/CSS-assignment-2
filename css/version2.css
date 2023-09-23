@@ -14,6 +14,7 @@ body {
     background: #000;
     margin: 0;
 }
+
 img {
     max-width: 100%;/* DO NOT delete or change this line */
 }
@@ -25,7 +26,6 @@ section {
 #cougar {
     display: flex;
     background: #FFD5AE;
-    flex-direction: row;
     align-items: flex-start;
     justify-content: center;
 }
@@ -33,7 +33,6 @@ section {
 #lion {
     background: #FFBD82;
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     justify-content: center;
 }
@@ -41,17 +40,15 @@ section {
 #tiger {
     background: #ECA155;
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     justify-content: center;
 }
 
 .text {
-    padding: 2rem 2rem;
+    padding: 2rem;
     font-size: 1rem;
     line-height: 1.5rem;
 }
-
 
 header {
     display: flex;
